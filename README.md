@@ -1,0 +1,1 @@
+This Depository is created to learn and Implement Core Java Concepts which I am learning in Full-Stack Java Development by Chaand Sheikh. This will included only projects and Demo class tought in Course. Some of the Demo class is from Java-in-Depth Course by Dhiru manduru which is also brought by me to Master Core Java Concepts.
