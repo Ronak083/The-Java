@@ -18,7 +18,6 @@ public class LinkedListops {
             new LinkedListops().printList(countries);
             countries.remove(4);
             new LinkedListops().printList(countries);
-
         }
         void printList(LinkedList<String> list){
             for(String element: list){
@@ -26,5 +25,4 @@ public class LinkedListops {
             }
             System.out.println("*****************************");
         }
-
 }
