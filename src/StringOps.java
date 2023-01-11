@@ -16,6 +16,13 @@ public class StringOps {
         System.out.println("****************");
         str.removeNameByString("Raj");
         str.displayList(listname);
+        System.out.println("****************");
+        str.modifyname(0,"ronak");
+        str.displayList(listname);
+
+    }
+    int search(String name){
+        return listname.indexOf(name);
     }
     void displayList(ArrayList<String> names){
         for (String name:names){
@@ -27,5 +34,8 @@ public class StringOps {
     }
     void removeNameByString(String name){
         listname.remove(name);
+    }
+    void modifyname(int position, String name){
+        listname.set(position, name);
     }
 }
