@@ -1,7 +1,6 @@
 import java.util.LinkedList;
 
 public class LinkedListops {
-
         public static void main(String[] args) {
             LinkedList<String> countries = new LinkedList<>();
             countries.add("India");
