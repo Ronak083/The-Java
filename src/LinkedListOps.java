@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class LinkedListops {
+public class LinkedListOps {
         public static void main(String[] args) {
             LinkedList<String> countries = new LinkedList<>();
             countries.add("India");
@@ -9,14 +9,14 @@ public class LinkedListops {
             countries.add("Egypt");
             countries.add("Thailand");
             countries.add("Russia");
-            new LinkedListops().printList(countries);
+            new LinkedListOps().printList(countries);
             countries.add(1, "Canada");
             countries.add("Bragil");
-            new LinkedListops().printList(countries);
+            new LinkedListOps().printList(countries);
             countries.set(7, "Brazil");
-            new LinkedListops().printList(countries);
+            new LinkedListOps().printList(countries);
             countries.remove(4);
-            new LinkedListops().printList(countries);
+            new LinkedListOps().printList(countries);
         }
         void printList(LinkedList<String> list){
             for(String element: list){
