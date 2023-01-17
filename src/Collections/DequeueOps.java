@@ -1,3 +1,5 @@
+package Collections;
+
 import java.util.Deque;
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;

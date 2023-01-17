@@ -1,3 +1,5 @@
+package Multithread;
+
 public class Multithreading {
     public static void main(String[] args) {
         new Thread(new Runnable() {
