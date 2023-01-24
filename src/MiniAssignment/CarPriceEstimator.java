@@ -92,7 +92,7 @@ public class CarPriceEstimator {
     private double getPrice(String makeAndModel, int yearManufactured) {
         if (makeAndModel.equalsIgnoreCase("ford ecosport")) {
             return 20000.0;
-        } else if (makeAndModel.equalsIgnoreCase("honda city")) {
+        } else if (makeAndModel.equalsIgnoreCase("honda  city")) {
             return 25000.0;
         } else if (makeAndModel.equalsIgnoreCase("toyota camry hybrid")) {
             return 30000.0;
